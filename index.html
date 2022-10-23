@@ -16,10 +16,14 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Font - Fuzzy bubbles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
 </head>
 
 <body class="text-white" style="background: black">
-    <header class="fixed-top" style="background: black">
+    <header class="fixed-top fuzzy-bubbles" style="background: black">
         <nav class="navbar navbar-expand-lg mt-3 fs-5 mx-3">
             <a class="navbar-brand px-3 rounded fw-bolder" href="" style="background: yellow">Mini Game World</a>
             <button class="navbar-toggler bg-light text-white" type="button" data-toggle="collapse"
@@ -41,7 +45,7 @@
         <hr />
     </header>
 
-    <main class="my-5">
+    <main class="my-5 fuzzy-bubbles">
         <div class="container rounded" style="margin-top: 35vh; margin-bottom: 30vh;">
             <p class="display-4">
                 Mission to digitize our favourite paper 📰 pen 🖊 based games and save some paper
@@ -51,27 +55,27 @@
         </div>
 
         <!-- Games -->
-        <div id="games" class="text-center container rounded p-3" style="background: radial-gradient(rgb(211, 62, 62), red)">
-            <p class="display-4 m-3">Games</p>
+        <div id="games" class="text-center container rounded p-3" style="background: rgb(4, 4, 179)">
+            <p class="display-4 m-3 fw-bold">Games</p>
             <div class="d-flex flex-wrap justify-content-around">
                 <!-- Tennis game -->
-                <div class="card bg-dark m-3" style="width: 18rem;">
+                <div class="card bg-dark m-3 col-lg-4">
                     <img class="card-img-top" src="images/tennis_game.png" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Tennis</h5>
                         <p class="card-text">Actually not a tennis.  But it works little close to it 😉</p>
-                        <a href="https://minigameworld.github.io/tennis" target="_blank" class="btn btn-outline-light w-100">Play now</a>
+                        <a href="https://minigameworld.github.io/tennis" target="_blank" class="btn btn-outline-success btn-lg w-100">Play now</a>
                     </div>
                 </div>
                 <!-- Tennis game -->
 
                 <!-- Guess what -->
-                <div class="card bg-dark m-3" style="width: 18rem;">
+                <div class="card bg-dark m-3 col-lg-4">
                     <img class="card-img-top" src="images/guess_what.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Guess what</h5>
                         <p class="card-text">Ready for a fun quiz?</p>
-                        <a href="https://minigameworld.github.io/guess-what/" target="_blank" class="btn btn-outline-light w-100">Play now</a>
+                        <a href="https://minigameworld.github.io/guess-what/" target="_blank" class="btn btn-outline-danger btn-lg w-100">Play now</a>
                     </div>
                 </div>
                 <!-- Guess what -->
@@ -80,7 +84,7 @@
     </main>
 
     <hr />
-    <footer>
+    <footer class="fuzzy-bubbles">
         <div class="d-flex justify-content-around text-center py-5 flex-wrap align-items-center">
             <div class="my-3">
                 <p class="h5">Mini Game World</p>
